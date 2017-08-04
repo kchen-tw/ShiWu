@@ -1,0 +1,268 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.separator {
+    height: 50px;
+}
+
+.separator-line {
+    border-bottom-style: solid;
+    border-bottom-width: 1.5px;
+    margin-bottom: 40px;
+    border-bottom-color: rgba(152, 102, 0, 0.5);
+}
+
+.page-header {
+    margin-bottom: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 1.5px;
+    border-bottom-color: rgba(152, 102, 0, 0.5);
+}
+
+.page-header>h3 {
+    color: rgba(152, 102, 0, 0.5);
+}
+
+#intput-image-preview,
+#output-image-preview {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    color: #ecf0f1;
+    border: 2px dotted #0B85A1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#intput-image-preview input {
+    line-height: 200px;
+    font-size: 200px;
+    position: absolute;
+    opacity: 0;
+    z-index: 10;
+}
+
+#intput-image-label {
+    position: absolute;
+    z-index: 5;
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: #92AAB0;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+}
+
+footer {
+    padding: 30px;
+    height: 80px;
+}
+
+.jumbotron {
+    /* background-image: url('/img/background_white_curve.png'); */
+    border-radius: 0.9rem;
+}
+
+img.logo {
+    width: 70%;
+    max-width: 90%;
+    /*height: 50px;*/
+}
+
+
+/* .jumbotron h1.twart {
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-weight: 800;
+} */
+
+.jumbotron div.slogan {
+    text-align: right;
+    padding-right: 2em;
+}
+
+.jumbotron div.twart {
+    color: rgba(153, 102, 0, 0.6);
+    font-size: 3em;
+    font-weight: 700;
+    margin-right: 0.2em;
+    display: inline;
+}
+
+.jumbotron div.explore {
+    color: rgba(153, 153, 153, 0.6);
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-right: 0.2em;
+    display: inline;
+}
+
+.jumbotron div.explore-en {
+    color: rgba(102, 102, 102, 1);
+    font-size: 2em;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-weight: 800;
+}
+
+.jumbotron div.with-en {
+    color: rgba(153, 102, 0, 0.4);
+    font-size: 1.5em;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-weight: 800;
+}
+
+.jumbotron div.twart-en {
+    color: rgba(153, 102, 0, 0.4);
+    font-size: 1.5em;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-weight: 800;
+}
+
+@media (max-width: 576px) {
+    img.logo {
+        width: auto;
+        max-width: 70%;
+    }
+    .jumbotron div.twart {
+        font-size: 1.3em;
+    }
+    .jumbotron div.explore {
+        font-size: 1.5em;
+    }
+    .jumbotron div.explore-en {
+        font-size: 1.5em;
+    }
+    .jumbotron div.twart-en {
+        font-size: 1em;
+    }
+    .jumbotron div.with-en {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    img.logo {
+        width: auto;
+        max-width: 90%;
+    }
+    .jumbotron div.twart {
+        font-size: 2em;
+    }
+    .jumbotron div.explore {
+        font-size: 1.8em;
+    }
+}
+
+.profileimg {
+    width: auto;
+    max-width: 80%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.painter-name {
+    color: rgba(51, 51, 51, 1);
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-top: 15px
+}
+
+.painter-dates {
+    color: rgba(121, 121, 121, 1);
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.painter-introduction {
+    color: rgba(51, 51, 51, 1);
+    margin-top: 15px;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+div.more {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.btn-more {
+    color: rgba(152, 102, 0, 0.5);
+    background-image: none;
+    background-color: transparent;
+    border-color: rgba(152, 102, 0, 0.5);
+    margin-right: 10px;
+}
+
+.btn-more:hover {
+    color: #fff;
+    background-color: rgba(152, 102, 0, 0.5);
+    border-color: rgba(153, 102, 0, 0.5);
+}
+
+div.painting {
+    /*display: inline;*/
+    margin-left: 1em;
+    margin-right: 1em;
+    box-shadow: 3px 4px 15px 2px rgba(0, 0, 0, 0.2);
+}
+
+.painting-name {
+    color: rgba(152, 102, 0, 0.5);
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+}
+
+.painting-img {
+    width: auto;
+    max-width: 100%;
+}
+
+.modal-dialog {
+    width: auto;
+    max-width: 80%;
+}
+
+#top {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    opacity: 0.5;
+}
+
+#top:hover {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    opacity: 1;
+}
+
+.progress-bar {
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1rem;
+}
+
+.row-bar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.name {
+    line-height: 2rem;
+}
